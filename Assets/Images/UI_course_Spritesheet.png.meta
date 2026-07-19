@@ -1,0 +1,2468 @@
+fileFormatVersion: 2
+guid: 21c16507f6798c64bbd2a656f0bb34bb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 462
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fee5f101a3069c428123f8436c05d8f
+      internalID: 1946185993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 463
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d70d6e10d318de46a0a685d86ae8b62
+      internalID: -1293983635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 463
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961f91fe3e0ee0b41b1056f68455c127
+      internalID: -1681840373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 463
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d061a6df18e3a9b47ad3895d3d6ef79b
+      internalID: 1593780016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 463
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff3c7dc659e9f842a74ff26aab2fe95
+      internalID: -1248722617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 433
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaf807f505a1264abe60e234a618469
+      internalID: -1120675211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 462
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2fcc5321a7c684db514607dd9a3a49
+      internalID: -1219897734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 463
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c546886b46ee944c8bdd2979f8ec7d8
+      internalID: 652157449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 463
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4461f18e84ecc3e4ca3d0b46525f46b9
+      internalID: -819515387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 456
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9236098e031ac49a95ca234e183a5e
+      internalID: -1521478225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 457
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2055de0fd30c954498e7003055d060ee
+      internalID: -1768452065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 456
+        width: 35
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49999917, y: 0.4908427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc16ddcc7fb707745913a2a2d1d2b8c7
+      internalID: -1000797536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 455
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0133ac542e7614a85f194e77506f6d
+      internalID: 948396897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 433
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b4a8a9b538fb940b890c7133b65fc5
+      internalID: 1606604909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 433
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdce88d2698569d41a6674ebd4922fc5
+      internalID: -1584108691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 434
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b4b572becedb2488989f83fd5445ad
+      internalID: -568283261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 436
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d111a74072e584aa4450dbb43cb6e9
+      internalID: -1753519621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 433
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bba780ca747e741a0baea5d43d0245
+      internalID: 682904926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 434
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536f438a307cde94dbb90b0dbd7401ff
+      internalID: -1215521904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 418
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb66aaf840fef014ba9cdf16d3ea28bf
+      internalID: -1477289504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 418
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c7b0c33389e1943b4f58cc6fb13081
+      internalID: 1013433709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 418
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5841c44996cde448bbaad3770705dbc
+      internalID: 1083568053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 404
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7161cb8881e4341a38381ad2040c64
+      internalID: -1566304441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 404
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c1757b898fbf45a202feb9dc5544f
+      internalID: 784578821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 404
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26333376792b9a428a04d6db7afcd44
+      internalID: 689592224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 403
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f3a17abc8a534bb1d098b772fa29f
+      internalID: 652353423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 404
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cc8191ecd0b6a4c94fcddcf2a38c37
+      internalID: -1452380243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 404
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29f11ed5ee3a7a48afa461a60d3cbd2
+      internalID: -424479537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 367
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3189235bb0dcc884c961986525d7fef3
+      internalID: 825632194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 370
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30714a04cb9266f4eb71801d343f41de
+      internalID: 1127941422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 371
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a413d8c0e273f949b7bbfb6f980fa3c
+      internalID: -1688821435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 372
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dac1aefd44f204994aafcda5619801
+      internalID: 2034884584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 374
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2150f2f1f09ef345a8e099df9325899
+      internalID: 947720437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 344
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844fb9a4b278f0440b494b185c96b5a2
+      internalID: 51978478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 375
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04e171c13fbcdb43b27ab732145d074
+      internalID: 310926022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 374
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58591a74705da884db0c1f0129d4c3e8
+      internalID: -1469585275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 344
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca960639923f814b982637f07cf7674
+      internalID: 1936309417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 372
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233ab2c079f0457448821de5b18681e6
+      internalID: 632709314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 375
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43079378a7a667428365d0b829c4247
+      internalID: -304785951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 344
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fc9c3ccdc79d849a20b440b4f0d7de
+      internalID: 1757284197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 344
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a36f032adf3c974fad72d21eb6c9010
+      internalID: 965483822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 344
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94be6b99002c993419a659e6c2f5e076
+      internalID: -1909819124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 327
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1885f2daccc571f4a89d1c88ee1d9ee9
+      internalID: 712375157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 327
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a8c048faeba6140a8ed95266e84aec
+      internalID: -1006738349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 327
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b4f2c1c434151488175a4a047fc74d
+      internalID: 1386607245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 314
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e1e25df179664b804bd42b21a8199
+      internalID: 1287519499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 314
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b7c4841cb45ad4b9bc0c79a3cbd0aa
+      internalID: 1101134361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 314
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747a57c2c1643884182899b56fa1e555
+      internalID: -1901022108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 314
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7fa8d17f1be164fa8337132d812561
+      internalID: -165039049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 314
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827a174b81bedb44fba00dba36073dcd
+      internalID: -1728076736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 314
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bcf06cc1aa003438978b08dbb3e399
+      internalID: 442358164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 314
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8742f5f6a0455745ae427ec58168874
+      internalID: -1377712328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 286
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598616a7e00bc9e4a9cf6d6f71b70c4e
+      internalID: -199099294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 286
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7932385ab418bc4ebc6283606e76909
+      internalID: 1959931710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 287
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fc026d7abce404c92727ec6a704dec
+      internalID: -142336111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 286
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f431c33fca457243afe270578cf6761
+      internalID: -372202166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 273
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032859ddd72b4154ab05c216716a12ac
+      internalID: 276904928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 273
+        width: 121
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c74f3a6dbd19754c8033cbd74e5a0c6
+      internalID: 345617611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 290
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2583bb62a5942341b770330c9bb36c7
+      internalID: -1951021619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 290
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2902535e98f8dc4a94c2b17296c4fc6
+      internalID: -1186544209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac315038947278045942d7eea66f98d6
+      internalID: -2135895880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 289
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507c7095afc97c408f64f3d9990ad82
+      internalID: -1899278363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 290
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f674618bd21dd4bacc0a3966c53992
+      internalID: 116821126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 238
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748f0d012eb5c8448c62396492ef0c0
+      internalID: 1956148646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 239
+        width: 121
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c3e904af267984e8127aaacbd3bfdc
+      internalID: -1877848302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 263
+        width: 69
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921d8f7d7eae5844ca053aa7b2727810
+      internalID: -130784507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 265
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b929c9ff2e89cfa4695fc8796fd6501b
+      internalID: 993866293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 266
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e208eb07eb9e046a41d468fe201f43
+      internalID: 1546516107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 270
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d80ea8cc2da5140a8cf97c7a0239ab
+      internalID: -113787149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 267
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3e32b56546bdc41ac9348d59883286
+      internalID: 1413503815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 267
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c028613e782c3e14cb058d72261a8878
+      internalID: 1481219557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 267
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b974b0765f983488d0cc67133f1800
+      internalID: 778462933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 266
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53bc53105e17944ab70d8e22dc17db
+      internalID: -2019203537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 265
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc7b0988cd53c14bbfafcd4fcc60abf
+      internalID: -2101949828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 265
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820651d425ff95a4abae26d8180d3ada
+      internalID: -254838647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 266
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8654ff71532104cb86c663cb570041
+      internalID: 1479745187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 246
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e71287be246714ab164d4dcc5754b2
+      internalID: 872035039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 247
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f09a86860a8ab4fbdb15505dd2b1da
+      internalID: 1049322823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 246
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cf4fe8eee75634b9af41397b49d5b9
+      internalID: 389086284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 245
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65522e8edb2e104e91d3e87f36efc8c
+      internalID: -1162124437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 247
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d688f302bcf3243936f55d4f0f104a
+      internalID: -143613431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 242
+        width: 115
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c35121e664735478a4bf7285744fdb
+      internalID: -599865095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 214
+        width: 230
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c81af6b08089ff4ba12578499c84ac4
+      internalID: 176629238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 230
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1702d2856d06cbc4eb20706243b0b0f4
+      internalID: -1904630231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 219
+        width: 194
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df86b037133b2b545a2f8937efa3ebbc
+      internalID: -1587102857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 199
+        width: 158
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b33fbe8b357c7e42899956b6cbf762a
+      internalID: 780404192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 199
+        width: 160
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa1f802f2149c24e8f5aae616f8047e
+      internalID: 970596345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 163
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6997671b568f0c488a00d37c07576d2
+      internalID: -288384671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 38
+        width: 232
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c314f4754b154eb3a8dcb2cab4b48
+      internalID: -838062947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 38
+        width: 110
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e084811bf1ae44bb5729dd5da2775a
+      internalID: 1657775530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 38
+        width: 91
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 19, y: 21, z: 17, w: 17}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa647c0fcd3a64dae663cf42fdfbbb
+      internalID: -1496800315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2
+        width: 140
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131bc8f63a31aa74da4daba749ac4d1b
+      internalID: -1229393029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 142
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344de5c9834ee0846822595ddb18e9a4
+      internalID: 248211564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 79
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c7ccf58c9ca79458dd7711bb0e5837
+      internalID: -1019708343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 6
+        width: 77
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a332c364165bdfa41865d16da87d6586
+      internalID: 1883023220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 418
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f33907ffad9bb341b3b6667ce40088b
+      internalID: 1169733113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 347
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778b66bd6bc7ee9408b85db1ae0e7c87
+      internalID: -1293540561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 315
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5fd8f0e49ede6408109be7c3a1c2e0
+      internalID: -915610098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 373
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1a9923642a6064f950840364704da3
+      internalID: 640772529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 405
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4e71aaa264b6d4ab9e5761c8341344
+      internalID: 1135540421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_course_Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 403
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bce3089f0546b43b839fec9c463c12
+      internalID: 873098603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d9a4a26838d19b64a9e09314ad5acf66
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      UI_course_Spritesheet_0: 1946185993
+      UI_course_Spritesheet_1: -1293983635
+      UI_course_Spritesheet_10: -1768452065
+      UI_course_Spritesheet_100: 873098603
+      UI_course_Spritesheet_11: -1000797536
+      UI_course_Spritesheet_12: 948396897
+      UI_course_Spritesheet_13: 1606604909
+      UI_course_Spritesheet_14: -1584108691
+      UI_course_Spritesheet_15: -568283261
+      UI_course_Spritesheet_16: -1753519621
+      UI_course_Spritesheet_17: 682904926
+      UI_course_Spritesheet_18: -1215521904
+      UI_course_Spritesheet_19: -1477289504
+      UI_course_Spritesheet_2: -1681840373
+      UI_course_Spritesheet_20: 1013433709
+      UI_course_Spritesheet_21: 1083568053
+      UI_course_Spritesheet_22: -1566304441
+      UI_course_Spritesheet_23: 784578821
+      UI_course_Spritesheet_24: 689592224
+      UI_course_Spritesheet_25: 652353423
+      UI_course_Spritesheet_26: -1452380243
+      UI_course_Spritesheet_27: -424479537
+      UI_course_Spritesheet_28: 825632194
+      UI_course_Spritesheet_29: 1127941422
+      UI_course_Spritesheet_3: 1593780016
+      UI_course_Spritesheet_30: -1688821435
+      UI_course_Spritesheet_31: 2034884584
+      UI_course_Spritesheet_32: 947720437
+      UI_course_Spritesheet_33: 51978478
+      UI_course_Spritesheet_34: 310926022
+      UI_course_Spritesheet_35: -1469585275
+      UI_course_Spritesheet_36: 1936309417
+      UI_course_Spritesheet_37: 632709314
+      UI_course_Spritesheet_38: -304785951
+      UI_course_Spritesheet_39: 1757284197
+      UI_course_Spritesheet_4: -1248722617
+      UI_course_Spritesheet_40: 965483822
+      UI_course_Spritesheet_41: -1909819124
+      UI_course_Spritesheet_42: 712375157
+      UI_course_Spritesheet_43: -1006738349
+      UI_course_Spritesheet_44: 1386607245
+      UI_course_Spritesheet_45: 1287519499
+      UI_course_Spritesheet_46: 1101134361
+      UI_course_Spritesheet_47: -1901022108
+      UI_course_Spritesheet_48: -165039049
+      UI_course_Spritesheet_49: -1728076736
+      UI_course_Spritesheet_5: -1120675211
+      UI_course_Spritesheet_50: 442358164
+      UI_course_Spritesheet_51: -1377712328
+      UI_course_Spritesheet_52: -199099294
+      UI_course_Spritesheet_53: 1959931710
+      UI_course_Spritesheet_54: -142336111
+      UI_course_Spritesheet_55: -372202166
+      UI_course_Spritesheet_56: 276904928
+      UI_course_Spritesheet_57: 345617611
+      UI_course_Spritesheet_58: -1951021619
+      UI_course_Spritesheet_59: -1186544209
+      UI_course_Spritesheet_6: -1219897734
+      UI_course_Spritesheet_60: -2135895880
+      UI_course_Spritesheet_61: -1899278363
+      UI_course_Spritesheet_62: 116821126
+      UI_course_Spritesheet_63: 1956148646
+      UI_course_Spritesheet_64: -1877848302
+      UI_course_Spritesheet_65: -130784507
+      UI_course_Spritesheet_66: 993866293
+      UI_course_Spritesheet_67: 1546516107
+      UI_course_Spritesheet_68: -113787149
+      UI_course_Spritesheet_69: 1413503815
+      UI_course_Spritesheet_7: 652157449
+      UI_course_Spritesheet_70: 1481219557
+      UI_course_Spritesheet_71: 778462933
+      UI_course_Spritesheet_72: -2019203537
+      UI_course_Spritesheet_73: -2101949828
+      UI_course_Spritesheet_74: -254838647
+      UI_course_Spritesheet_75: 1479745187
+      UI_course_Spritesheet_76: 872035039
+      UI_course_Spritesheet_77: 1049322823
+      UI_course_Spritesheet_78: 389086284
+      UI_course_Spritesheet_79: -1162124437
+      UI_course_Spritesheet_8: -819515387
+      UI_course_Spritesheet_80: -143613431
+      UI_course_Spritesheet_81: -599865095
+      UI_course_Spritesheet_82: 176629238
+      UI_course_Spritesheet_83: -1904630231
+      UI_course_Spritesheet_84: -1587102857
+      UI_course_Spritesheet_85: 780404192
+      UI_course_Spritesheet_86: 970596345
+      UI_course_Spritesheet_87: -288384671
+      UI_course_Spritesheet_88: -838062947
+      UI_course_Spritesheet_89: 1657775530
+      UI_course_Spritesheet_9: -1521478225
+      UI_course_Spritesheet_90: -1496800315
+      UI_course_Spritesheet_91: -1229393029
+      UI_course_Spritesheet_92: 248211564
+      UI_course_Spritesheet_93: -1019708343
+      UI_course_Spritesheet_94: 1883023220
+      UI_course_Spritesheet_95: 1169733113
+      UI_course_Spritesheet_96: -1293540561
+      UI_course_Spritesheet_97: -915610098
+      UI_course_Spritesheet_98: 640772529
+      UI_course_Spritesheet_99: 1135540421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
