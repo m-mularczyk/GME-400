@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -6,11 +5,6 @@ public class NumberDropSlot : MonoBehaviour, IDropHandler
 {
     [SerializeField] private int _currentlyPlacedNumber = 0;
     [SerializeField] PlacedNumbers _placedNumbers;
-
-    void Start()
-    {
-        
-    }
 
     public void OnDrop(PointerEventData eventData)
     {

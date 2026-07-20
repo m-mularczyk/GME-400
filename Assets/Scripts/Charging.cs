@@ -2,8 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.Rendering;
 
 public class Charging : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -16,12 +14,6 @@ public class Charging : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private bool _isCharging = false;
     private float _chargingValue = 0f;
 
-
-
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

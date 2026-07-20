@@ -1,8 +1,5 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class Timer : MonoBehaviour
 {
@@ -40,6 +37,9 @@ public class Timer : MonoBehaviour
         }
     }
 
-
+    public void SetTimeForGame(float time)
+    {
+        _maxSeconds = time;
+    }
 
 }

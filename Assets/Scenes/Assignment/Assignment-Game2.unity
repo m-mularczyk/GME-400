@@ -1676,7 +1676,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Guess my number 1-1000 in X trials
+  m_text: Guess number between 1-1000 in X trials
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b2a910febe8342b43a3153ceb1358454, type: 2}
   m_sharedMaterial: {fileID: 4578835516187830123, guid: b2a910febe8342b43a3153ceb1358454, type: 2}
@@ -1703,8 +1703,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1813,7 +1813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game 2
+  m_text: Guess my number
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b2a910febe8342b43a3153ceb1358454, type: 2}
   m_sharedMaterial: {fileID: 4578835516187830123, guid: b2a910febe8342b43a3153ceb1358454, type: 2}
@@ -1840,10 +1840,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
+  m_fontSize: 30.15
   m_fontSizeBase: 35
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1

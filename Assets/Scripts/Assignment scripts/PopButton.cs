@@ -9,6 +9,7 @@ public class PopButton : MonoBehaviour, IPointerClickHandler
     [SerializeField] private float _maxTimeOn = 1f;
     [SerializeField] private float _minTimeOff = 1.5f;
     [SerializeField] private float _maxTimeOff = 3.5f;
+    [SerializeField] private ParticleSystem _particleSystem;
     private Image _overlayImage;
     private bool _isActive = false;
 
@@ -43,6 +44,9 @@ public class PopButton : MonoBehaviour, IPointerClickHandler
             PlayerManager.Instance.AddScore(1);
             PlayerManager.Instance.AddLastGameScore(1);
             Debug.Log("Point awarded");
+
+            _particleSystem.transform.position = transform.position;
+            _particleSystem.Play();
         }
         
     }

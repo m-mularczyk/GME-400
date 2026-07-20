@@ -8,13 +8,4 @@ public class Drop : MonoBehaviour, IDropHandler
         eventData.pointerDrag.transform.position = transform.position;
     }
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

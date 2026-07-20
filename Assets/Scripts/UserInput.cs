@@ -1,24 +1,11 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UserInput : MonoBehaviour
 {
     [SerializeField] private TMP_InputField _inputFieldName;
     [SerializeField] private TMP_InputField _inputFieldPassword;
     [SerializeField] private TextMeshProUGUI _outputTxt;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void InputFieldName()
     {

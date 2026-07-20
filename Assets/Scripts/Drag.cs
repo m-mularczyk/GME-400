@@ -12,11 +12,6 @@ public class Drag : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHand
         _image = GetComponent<Image>();
     }
 
-    void Update()
-    {
-        
-    }
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         var temp = _image.color;

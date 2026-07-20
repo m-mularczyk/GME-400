@@ -11,10 +11,6 @@ public class DropPosition : MonoBehaviour, IDropHandler
         _thisImage = GetComponent<Image>();
     }
 
-    void Update()
-    {
-        
-    }
 
     public void OnDrop(PointerEventData eventData)
     {

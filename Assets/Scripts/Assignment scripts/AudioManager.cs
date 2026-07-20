@@ -4,6 +4,11 @@ public class UIAudioManager : MonoBehaviour
 {
     public static UIAudioManager Instance { get; private set; }
 
+    [SerializeField] private AudioSource _musicSource;
+    [SerializeField] private AudioSource _sfxSource;
+
+
+    [SerializeField] private AudioClip _bgMusic;
     [SerializeField] private AudioClip _buttonClickSound;
     [SerializeField] private AudioClip _pickUpSound;
     [SerializeField] private AudioClip _dropSound;
@@ -27,33 +32,45 @@ public class UIAudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void Start()
+    {
+        PlayBackgroundMusic();
+    }
+
+    public void PlayBackgroundMusic()
+    {
+        _musicSource.clip = _bgMusic;
+        _musicSource.loop = true;
+        _musicSource.Play();
+    }
+
     public void PlayButtonClick()
     {
-        _audioSource.PlayOneShot(_buttonClickSound);
+        _sfxSource.PlayOneShot(_buttonClickSound);
     }
 
     public void PlaySucessSound()
     {
-        _audioSource.PlayOneShot(_successSound);
+        _sfxSource.PlayOneShot(_successSound);
     }
 
     public void PlayDropSound()
     {
-        _audioSource.PlayOneShot(_dropSound);
+        _sfxSource.PlayOneShot(_dropSound);
     }
 
     public void PlayPopSound()
     {
-        _audioSource.PlayOneShot(_popSound);
+        _sfxSource.PlayOneShot(_popSound);
     }
 
     public void PlayHoverSound()
     {
-        _audioSource.PlayOneShot(_hoverSound);
+        _sfxSource.PlayOneShot(_hoverSound);
     }
 
     public void PlayPickUpSound()
     {
-        _audioSource.PlayOneShot(_pickUpSound);
+        _sfxSource.PlayOneShot(_pickUpSound);
     }
 }

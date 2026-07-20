@@ -14,10 +14,6 @@ public class Draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         _oldPosition = _image.rectTransform.localPosition;
     }
 
-    void Update()
-    {
-        
-    }
 
     public void OnDrag(PointerEventData eventData)
     {

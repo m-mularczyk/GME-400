@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 public class PopTheButtons : MonoBehaviour
 {
     [SerializeField] private PopButton[] _popButtons;
+    [SerializeField] private Timer _timer;
+    [SerializeField] private ParticleSystem _particleSystem;
     void Start()
     {
+        _timer.SetTimeForGame(15f);
         Time.timeScale = 1;
     }
 
