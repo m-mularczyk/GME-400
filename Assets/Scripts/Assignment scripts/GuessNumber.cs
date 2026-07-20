@@ -16,6 +16,7 @@ public class GuessNumber : MonoBehaviour
     [SerializeField] private int _currentPoints = 100;
     private int _lastGuess;
     [SerializeField] private int _totalTrials = 0;
+    private bool _success = false;
 
     void Start()
     {
@@ -24,6 +25,8 @@ public class GuessNumber : MonoBehaviour
         _trialsLeft = _trials;
         _currentPoints = _maxPoints;
         _totalTrials = 0;
+        _success = false;
+        _inputField.interactable = true;
     }
 
     public void VerifyNumber()
@@ -75,8 +78,12 @@ public class GuessNumber : MonoBehaviour
                         _tipText.text = "You guessed it but in too many trials!";
                     }
 
-                    UIAudioManager.Instance.PlaySucessSound();
-                    StartCoroutine("GuessNumberSuccessRoutine");
+                    if (!_success)
+                    {
+                        StartCoroutine("GuessNumberSuccessRoutine");
+                        _success = true;
+                    }
+                    
 
                 }
 
@@ -109,6 +116,8 @@ public class GuessNumber : MonoBehaviour
 
     IEnumerator GuessNumberSuccessRoutine()
     {
+        _inputField.interactable = false;
+        UIAudioManager.Instance.PlaySucessSound();
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("Assignment-ResultScreen");
     }

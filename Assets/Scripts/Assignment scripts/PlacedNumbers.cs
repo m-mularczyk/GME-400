@@ -22,7 +22,7 @@ public class PlacedNumbers : MonoBehaviour
 
             if (correctOrder)
             {
-                Debug.Log("Kolejnoœæ poprawna!");
+                Debug.Log("Correct order!");
                 PlayerManager.Instance.AddScore(10);
                 PlayerManager.Instance.AddLastGameScore(10);
                 _successInfo.SetActive(true);
@@ -31,7 +31,7 @@ public class PlacedNumbers : MonoBehaviour
             }
             else
             {
-                Debug.Log("Kolejnoœæ b³êdna!");
+                Debug.Log("Incorrect order!");
             }
         }
     }
