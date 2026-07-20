@@ -122,7 +122,7 @@ public class AppButtonManager : MonoBehaviour
         if(PlayerManager.Instance.PlayerName != null && PlayerManager.Instance.PlayerName != "")
         {
             PlayerPrefs.SetInt(PlayerManager.Instance.PlayerName + "_score", PlayerManager.Instance.PlayerScore);
-            Debug.Log("Saved new score to PlayerPrefs");
+            Debug.Log("Saved new score to PlayerPrefs: " + PlayerManager.Instance.PlayerScore);
         }
     }
 
