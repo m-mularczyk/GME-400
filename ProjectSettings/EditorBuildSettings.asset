@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Assignment/Assignment-MainMenu.unity
     guid: 5f87ac050ead4a443bda9c985ef5ef02
   - enabled: 1
-    path: Assets/Scenes/Assignment/Assignment-ChooseGame.unity
+    path: Assets/Scenes/Assignment/Assignment-Settings.unity
     guid: e745a4219c5bd8d4a83d04ffbc62246d
   - enabled: 1
     path: Assets/Scenes/Assignment/Assignment-Profile.unity
@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Assignment/Assignment-ResultScreen.unity
     guid: fadc02bbc9ad2e7439a2aa3433a01bd1
+  - enabled: 1
+    path: Assets/Scenes/Assignment/Assignment-ChooseGame.unity
+    guid: e5fc067ac875f904cacdf10fbe35f12f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

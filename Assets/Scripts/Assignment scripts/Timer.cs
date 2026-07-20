@@ -2,19 +2,24 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Timer : MonoBehaviour
 {
     [SerializeField] private float _maxSeconds = 20f;
+    [SerializeField] private PopTheButtons _popTheButtons;
 
     private TextMeshProUGUI _timerText;
     private float _maxTimeStamp;
+    private bool _succeeded;
 
     void Start()
     {
         _timerText = GetComponent<TextMeshProUGUI>();
 
         _maxTimeStamp = Time.time + _maxSeconds;
+
+        _succeeded = false;
     }
 
     void Update()
@@ -27,7 +32,14 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Assignment-ResultScreen");
+            if (!_succeeded)
+            {
+                _popTheButtons.TimeOut();
+            }
+            _succeeded = true;
         }
     }
+
+
+
 }

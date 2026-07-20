@@ -15,13 +15,15 @@ public class GuessNumber : MonoBehaviour
     [SerializeField] private int _maxPoints = 100;
     [SerializeField] private int _currentPoints = 100;
     private int _lastGuess;
+    [SerializeField] private int _totalTrials = 0;
 
     void Start()
     {
         _myNumber = Random.Range(1, 1001);
-        _instructionsText.text = "Guess my number 1-1000 in " + _trialsLeft + " trials";
+        _instructionsText.text = "Guess my number 1-1000 in " + _trials + " trials";
         _trialsLeft = _trials;
         _currentPoints = _maxPoints;
+        _totalTrials = 0;
     }
 
     public void VerifyNumber()
@@ -35,15 +37,26 @@ public class GuessNumber : MonoBehaviour
                     //Tip: try higher
                     _tipText.text = "Too low, try higher...";
                     WrongGuess();
+                    _totalTrials++;
                 }
                 else if (int.Parse(_inputField.text) > _myNumber)
                 {
                     // Tip: try lower
                     _tipText.text = "Too high, try lower...";
                     WrongGuess();
+                    _totalTrials++;
                 }
                 else
                 {
+                    // GUESSED CORRECTLY
+                    _totalTrials++;
+
+                    if(_totalTrials > _trials)
+                    {
+                        _currentPoints = 0;
+                        Debug.Log("Too many trials - zero points");
+                    }
+
                     if (_currentPoints < 0)
                     {
                         _currentPoints = 0;
@@ -53,18 +66,28 @@ public class GuessNumber : MonoBehaviour
                     PlayerManager.Instance.AddScore(_currentPoints);
                     PlayerManager.Instance.AddLastGameScore(_currentPoints);
 
-                    _tipText.text = "You guessed it! Congratulations!";
+                    if(_totalTrials < _trials)
+                    {
+                        _tipText.text = "You guessed it in " + (_totalTrials) +" trials! Congratulations!";
+                    }
+                    else
+                    {
+                        _tipText.text = "You guessed it but in too many trials!";
+                    }
+
+                    UIAudioManager.Instance.PlaySucessSound();
                     StartCoroutine("GuessNumberSuccessRoutine");
 
-
                 }
+
             }
             else
             {
                 if(!_tipText.text.Contains("You already tried this number"))
                 _tipText.text += " You already tried this number.";
             }
-            
+
+
         }
     }
 
@@ -72,11 +95,16 @@ public class GuessNumber : MonoBehaviour
     {
         _trialsLeft--;
         _currentPoints -= Mathf.CeilToInt(_maxPoints/_trials);
-        if (_currentPoints < 0)
-        {
-            _currentPoints = 0;
-        }
+
         _lastGuess = int.Parse(_inputField.text);
+
+        UIAudioManager.Instance.PlayDropSound();
+    }
+
+    public void SetCaretPosition()
+    {
+        _inputField.ActivateInputField();
+        _inputField.caretPosition = _inputField.text.Length;
     }
 
     IEnumerator GuessNumberSuccessRoutine()

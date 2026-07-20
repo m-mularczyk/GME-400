@@ -27,6 +27,8 @@ public class NumberToSort : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
         _image.raycastTarget = false;
         transform.SetSiblingIndex(transform.parent.childCount - 1);
 
+        UIAudioManager.Instance.PlayPickUpSound();
+
         if (_currentSlot != null)
         {
             _currentSlot.ResetSlot();

@@ -26,6 +26,7 @@ public class PlacedNumbers : MonoBehaviour
                 PlayerManager.Instance.AddScore(10);
                 PlayerManager.Instance.AddLastGameScore(10);
                 _successInfo.SetActive(true);
+                UIAudioManager.Instance.PlaySucessSound();
                 StartCoroutine(SuccessfullyPlacedNumbersRoutine());
             }
             else

@@ -39,10 +39,16 @@ public class PopButton : MonoBehaviour, IPointerClickHandler
         {
             _overlayImage.enabled = false;
             _isActive = false;
+            UIAudioManager.Instance.PlayPopSound();
             PlayerManager.Instance.AddScore(1);
             PlayerManager.Instance.AddLastGameScore(1);
             Debug.Log("Point awarded");
         }
         
+    }
+
+    public void TurnOffButton()
+    {
+        _overlayImage.enabled = false;
     }
 }

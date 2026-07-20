@@ -27,6 +27,8 @@ public class NumberDropSlot : MonoBehaviour, IDropHandler
             _placedNumbers.CheckNumbers();
         }
 
+        UIAudioManager.Instance.PlayDropSound();
+
     }
 
     public void ResetSlot()

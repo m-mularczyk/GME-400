@@ -14,11 +14,13 @@ public class AppButtonManager : MonoBehaviour
     [SerializeField] private TMP_InputField _playerNameInputField;
     [SerializeField] private TextMeshProUGUI _inputFieldStatusTxt;
     [SerializeField] private TextMeshProUGUI _currentProfileTxt;
+    [SerializeField] private TextMeshProUGUI _currentPlayerIndicatorTxt;
 
     private void Start()
     {
         //PlayerPrefs.DeleteAll();
-
+        UpdatePlayerIndicator();
+       
     }
     public void LoadNextScene(string sceneName)
     {
@@ -51,11 +53,13 @@ public class AppButtonManager : MonoBehaviour
             _playerNameInputField.text = "";
 
             _currentProfileTxt.gameObject.SetActive(true);
-            _currentProfileTxt.text = _playerName + " : " + _playerScore;
+            _currentProfileTxt.text = _playerName + " : " + _playerScore + " points";
 
             PlayerManager.Instance.SetPlayerName( _playerName );
             PlayerManager.Instance.SetScore( _playerScore );
             PlayerManager.Instance.ResetLastGameScore();
+
+            UpdatePlayerIndicator();
         }
         else
         {
@@ -87,7 +91,7 @@ public class AppButtonManager : MonoBehaviour
             _playerNameInputField.text = "";
 
             _currentProfileTxt.gameObject.SetActive(true);
-            _currentProfileTxt.text = _playerName + " : " + _playerScore;
+            _currentProfileTxt.text = _playerName + " : " + _playerScore + " points";
         }
         else
         {
@@ -98,6 +102,8 @@ public class AppButtonManager : MonoBehaviour
         PlayerManager.Instance.SetPlayerName(_playerName);
         PlayerManager.Instance.SetScore(_playerScore);
         PlayerManager.Instance.ResetLastGameScore();
+
+        UpdatePlayerIndicator();
     }
 
     public void GoBackButton(string sceneName)
@@ -123,6 +129,14 @@ public class AppButtonManager : MonoBehaviour
         {
             PlayerPrefs.SetInt(PlayerManager.Instance.PlayerName + "_score", PlayerManager.Instance.PlayerScore);
             Debug.Log("Saved new score to PlayerPrefs: " + PlayerManager.Instance.PlayerScore);
+        }
+    }
+
+    public void UpdatePlayerIndicator()
+    {
+        if (_currentPlayerIndicatorTxt != null)
+        {
+            _currentPlayerIndicatorTxt.text = PlayerManager.Instance.PlayerName != "" ? "Player: " + PlayerManager.Instance.PlayerName : "";
         }
     }
 
